@@ -14,4 +14,4 @@ text_byte = plaintext.encode()
 
 cipher, tag = AES_GCM(key,nonce,text_byte)
 
-print(ciphertect, tag)
+print(cipher, tag)
